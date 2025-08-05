@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d04eb033-26c9-4713-a3f0-812b15135ea6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/CompositeGridApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/GenericsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/coordinates/CoordinateConversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/coordinates/CoordinateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/coordinates/FractionalHexagonCoordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/coordinates/FractionalTriangleCoordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/coordinates/HexagonCoordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/coordinates/HexagonDirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/coordinates/TriangleCoordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/coordinates/TriangleDirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/grid/CompositeGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/grid/GridUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/grid/HexagonCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/grid/HexagonGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/grid/TriangleCell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/grid/TriangleGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/render/AbstractGridRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/render/GridGeometry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/render/GridOverlayRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/ui/GridOverlayBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/ui/GridOverlayView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/ui/GridSelectionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/java/compositegrid/ui/HexagonGridPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/resources/Pasted image 20250805150628.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/resources/Pasted image 20250805150705.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/resources/Pasted image 20250805150807.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/resources/Pasted image 20250805151003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/resources/Pasted image 20250805153639.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompositeHexagonGrid/src/main/resources/Pasted image 20250805180433.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/noisyhexagons/NoisyHexagonApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/noisyhexagons/grid/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/noisyhexagons/grid/DemoGrid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/noisyhexagons/grid/EdgeTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/noisyhexagons/grid/HexagonTile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/noisyhexagons/grid/HexagonType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/noisyhexagons/noise/EdgeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/noisyhexagons/noise/NoisyEdgeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/noisyhexagons/render/ImageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/noisyhexagons/render/NoisyHexagonRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/noisyhexagons/ui/GridSelectionTypeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/noisyhexagons/ui/SelectionPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Pasted image 20250805104619.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Pasted image 20250805104658.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Pasted image 20250805104849.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Pasted image 20250805110154.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Pasted image 20250805111428.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Pasted image 20250805111441.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/settlement.png" afterDir="false" />
+      <change beforePath="$USER_HOME$/IdeaProjectsA/MidpointDisplacement/src/main/java/MidpointDisplacementDemo.java" beforeDir="false" afterPath="$USER_HOME$/IdeaProjectsA/MidpointDisplacement/src/main/java/MidpointDisplacementDemo.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/IdeaProjectsA/MidpointDisplacement/src/main/java/midpointdisplacement/MidpointDisplacedPath.java" beforeDir="false" afterPath="$USER_HOME$/IdeaProjectsA/MidpointDisplacement/src/main/java/midpointdisplacement/MidpointDisplacedPath.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DM-UK&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DM-UK/MidpointDisplacement&quot;,
+    &quot;accountId&quot;: &quot;dd1e7c1b-0e32-4bab-9460-28a33098eb96&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="30aRdR7bqefZGNnBxH52TWgOrmK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CompositeGridApp.executor": "Run",
+    "Application.Demo.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MidpointDisplacementDemo.executor": "Run",
+    "Application.NoisyHexagonApp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/Anonymous/IdeaProjects9/NoisyHexagons/src/main/java/noisyhexagons",
+    "last_opened_file_path": "C:/Users/Anonymous/IdeaProjects9/NoisyHexagons"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="noisyhexagons" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Anonymous\IdeaProjects9\NoisyHexagons\src\main\resources" />
+      <recent name="C:\Users\Anonymous\IdeaProjects9\CompositeHexagonGrid\src\main\resources" />
+      <recent name="C:\Users\Anonymous\IdeaProjects9\CompositeHexagonGrid" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anonymous\IdeaProjects9\README" />
+      <recent name="C:\Users\Anonymous\IdeaProjects9\CompositeHexagonGrid" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="compositegrid.grid" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="compositegrid.grid" />
+      <recent name="compositegrid.render" />
+      <recent name="noisyhexagons" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.NoisyHexagonApp">
+    <configuration name="CompositeGridApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compositegrid.CompositeGridApp" />
+      <module name="compositehexagongrid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compositegrid.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MidpointDisplacementDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MidpointDisplacementDemo" />
+      <module name="MidpointDisplacement" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NoisyHexagonApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="noisyhexagons.NoisyHexagonApp" />
+      <module name="noisyhexagons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compositegrid.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NoisyHexagonApp" />
+        <item itemvalue="Application.CompositeGridApp" />
+        <item itemvalue="Application.MidpointDisplacementDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d04eb033-26c9-4713-a3f0-812b15135ea6" name="Changes" comment="" />
+      <created>1753863784364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753863784364</updated>
+    </task>
+    <servers />
+  </component>
+</project>
