@@ -1,7 +1,7 @@
 A demonstration of how to achieve visually appealing hexagon border transitions of a [CompositeHexagonGrid](https://github.com/DM-UK/HexTriCompositeGrid) using the [MidpointDisplacement](https://github.com/DM-UK/MidpointDisplacement) algorithm.
 
 Drawing a line along each edge of a regular hexagon using the Midpoint Displacement algorithm we get the following effect:
-![[/src/main/resources/Pasted image 20250805111428.png]]
+![[/src/main/resources/Pastedimage20250805111428.png]]
 
 ![[/src/main/resources/Pasted image 20250805111441.png]]
 
